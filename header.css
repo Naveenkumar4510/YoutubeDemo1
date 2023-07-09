@@ -1,0 +1,171 @@
+.header
+{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(226, 226, 226);z-index:100 ;
+
+}
+.left
+{
+   
+    display: flex;
+
+    align-items: center;
+}
+.right
+{
+    
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-right: 25px;
+flex-shrink: 0;
+    
+}
+.middle
+{
+   margin-top: 7px;
+   margin-left: 70px;
+   margin-right: 35px;
+   max-width: 500px;
+    flex:1;
+    display: flex;
+   
+    align-items: center;
+}
+.hm
+{
+    height:24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.yl
+{
+    height:20px;
+}
+.slogo
+{
+  height:40px; 
+ width:40px;
+  background-color: rgb(240,240,240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192,192,192);
+  margin-left:-1px;
+  margin-right: 18px;
+  
+  
+}.slogo,.mic,.uc,.apc{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogo .tip,.mic .tip,.uc .tip,.apc .tip
+{
+position: absolute;
+background-color: gray;
+color:white;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-right: 8px;
+padding-left: 8px;
+border-radius: 2px;
+font-size: 12px;
+bottom: -30px;
+left:-3px;
+opacity:0;
+transition: opacity 0.15s;
+pointer-events: none;
+white-space: nowrap;
+
+}
+.slogo:hover .tip,.mic:hover .tip,.uc:hover .tip,.apc:hover .tip
+{
+opacity: 1;
+}
+
+.searchicon
+{
+    height: 25px;
+   
+}
+.mic
+{
+    height:40px; 
+    width:40px; 
+    margin-top: 0;
+    
+    margin-right: 3px;
+    border-radius:20px;
+    border: none;
+    background-color:rgb(245,245,245);
+
+}
+.voice-search-icon
+{
+    height:24px;
+    
+}
+.searchbar
+{
+    flex:1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(192, 192, 192);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
+    width: 0;
+    
+}
+.searchbar::placeholder
+{
+    font-family:roboto,arial;
+    font-size: 16px;
+}
+.yic
+{
+    height: 24px;
+}
+.app
+{
+    height: 24px;
+}
+.ni{
+    height: 24px;
+}
+.notification
+{
+    position: relative;
+}
+.nc{
+position: absolute;
+top: -5px;
+right: -5px;
+color: rgb(255, 255, 255);
+background-color: red;
+font-family: arial,roboto;
+font-size: 10px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+border-radius: 10px;
+}
+.chi{
+    height: 27px;
+    border-radius: 16px;
+}
